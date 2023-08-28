@@ -7,7 +7,7 @@ export default function page({params}) {
   return (
     <section>
         <h1>{stars.name}</h1>
-        <Image src={stars.image} alt={stars.name} width={500} height={300} className='m-auto ' />
+        <Image src={stars.image} alt={stars.name} width={500} height={400} className='m-auto ' />
         <h2>Nationality: {stars.nationality}</h2>
         <p>Profession:{stars.profession}</p>
         <p>Date of Birth: {stars.date_of_birth}</p>
